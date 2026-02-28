@@ -23,3 +23,59 @@ body {
 h1, h2 {color: aliceblue;}
 
 a{ color:dodgerblue}
+
+.container{
+    width: 90%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding: 1rem;
+    border-bottom: 2px dashed #e0e0e0;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.main-nav li {
+    margin-right: 20px;
+    margin-left:20px;
+}
+
+.main-nav a {
+    font-weight: 700;
+}
+
+#hero {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.723)), url('imagenes/balatro fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color:#ffffff;
+    padding: 180px 0;
+    text-align:center;
+    border-bottom: 2px dashed #e0e0e0;
+}
+
+#hero h1 {
+    color:#ffffff;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    color:#ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
