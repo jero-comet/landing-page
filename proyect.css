@@ -1,7 +1,7 @@
-*{margin: 0;
+*
+{margin: 0;
 padding: 0;
 box-sizing: border-box;
-
 }
 
 body {
@@ -20,7 +20,17 @@ body {
     src: url(fonts/balatro.otf.woff2);
 }
 
-h1, h2 {color: aliceblue;}
+h1, h2 {
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+    
+    color:aliceblue;
+}
 
 a{ color:dodgerblue}
 
