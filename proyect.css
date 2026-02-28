@@ -12,6 +12,7 @@ body {
     margin:auto;
     background-color: rgb(27, 27, 27);
     background-attachment: fixed;
+    color:#4F6367;
     
 }
 
@@ -88,4 +89,20 @@ a{ color:dodgerblue}
     color:#ffffff;
     font-size: 1.2rem;
     margin-bottom: 2rem;
+}
+
+#general {
+ padding: 30px;
+}
+
+#general h2 {
+
+    font-size: 3rem;
+    padding:30px;
+    
+}
+
+#general p {
+    font-size:30px;
+    color:#FDA200;
 }
