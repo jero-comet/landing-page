@@ -7,6 +7,8 @@ box-sizing: border-box;
 body {
 
     font-family: "balatro";
+    background-color:#00203171;
+    
 }
 
 @font-face {
