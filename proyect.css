@@ -7,7 +7,11 @@ box-sizing: border-box;
 body {
 
     font-family: "balatro";
-    background-color:#00203171;
+    background:linear-gradient(30deg,#00203171,#31000071);
+    background-repeat:no-repeat;
+    margin:auto;
+    background-color: rgb(27, 27, 27);
+    background-attachment: fixed;
     
 }
 
@@ -15,3 +19,7 @@ body {
     font-family: "balatro";
     src: url(fonts/balatro.otf.woff2);
 }
+
+h1, h2 {color: aliceblue;}
+
+a{ color:dodgerblue}
